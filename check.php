@@ -57,7 +57,7 @@ if(!empty($_POST['ip_addresses']))
 }
 
 //fetch API
-$endpoint = 'https://pro.ip-api.com/batch?key=7pENc85aLkEJPLT';
+$endpoint = 'https://pro.ip-api.com/batch?key=<api-key>';
 $IPresponse = '';
 $array = array();
 $i = 1;
